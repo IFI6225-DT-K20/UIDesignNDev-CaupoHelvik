@@ -1,6 +1,10 @@
 # UIDesignNDev-CaupoHelvik  
 Following instructions are done in Windows based environment. Some commands in Linux may vary.
 
+Website to replicate: https://www.barbican.org.uk/  
+  
+  
+  
 Installation intructions:  
   
 1. npm init -y  
