@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import VideoContainer from './components/VideoContainer.jsx';
+import Section from './components/Section.jsx';
+
 class App extends Component{
-    render(){
+    render() {
         return(
             <div>
-            <h1>Hello World</h1>
-        </div>
-    );
+                <Header/>
+                <VideoContainer/>
+                <Section/>
+                <Section/>
+                <Section/>
+                <Section/>
+                <Section/>
+                <Footer/>
+            </div>
+        );
     }
 }
 export default App;
