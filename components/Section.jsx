@@ -10,7 +10,7 @@ class Section extends React.Component {
 
     render() {
         return (
-            <div class="section">
+            <div className={"section"}>
                 todo section configurability
             </div>
         )

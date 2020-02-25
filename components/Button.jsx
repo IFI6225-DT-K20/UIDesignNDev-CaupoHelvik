@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Header extends React.Component {
+class Btn extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -10,11 +10,11 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div class="header">
-                <p>todo header content here</p>
-            </div>
+            <button className={"btn"}>
+                todo
+            </button>
         )
     }
 }
 
-export default Header;
+export default Btn;
