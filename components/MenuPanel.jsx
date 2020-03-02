@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/menu-panel.scss";
 
 class MenuPanel extends React.Component {
     constructor(props) {

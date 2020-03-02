@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/picture-block.scss";
 
 class PictureBlock extends React.Component {
     constructor(props) {

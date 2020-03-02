@@ -1,6 +1,7 @@
 import React from 'react';
 import Btn from './Button.jsx';
 import { Link } from "react-router-dom";
+import "../css/header-menu.scss";
 
 class HeaderMenu extends React.Component {
     constructor(props) {

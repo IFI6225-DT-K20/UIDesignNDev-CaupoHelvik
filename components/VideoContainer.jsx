@@ -1,5 +1,6 @@
 import React from 'react';
 import Btn from './Button.jsx';
+import "../css/video-container.scss";
 
 class VideoContainer extends React.Component {
     constructor(props) {

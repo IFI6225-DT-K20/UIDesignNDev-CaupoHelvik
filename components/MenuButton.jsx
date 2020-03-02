@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/menu-button.scss";
 
 class MenuButton extends React.Component {
     constructor(props) {

@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/tab-list.scss";
 
 class TabList extends React.Component {
     constructor(props) {

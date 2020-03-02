@@ -14,13 +14,14 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.jsx?$/,
+                test: /\.(css|scss)$/i,
+                use: ['style-loader', 'css-loader', 'sass-loader'],
+            },
+            {
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                loader: 'babel-loader',
-                query: {
-                    presets: ['es2015', 'react']
-                }
-            }
+                use: "babel-loader"
+            },
         ]
     },
     plugins:[

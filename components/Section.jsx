@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/section.scss";
 
 class Section extends React.Component {
     constructor(props) {
