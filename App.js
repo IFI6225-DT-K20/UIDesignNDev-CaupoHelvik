@@ -9,7 +9,7 @@ class App extends Component{
     render() {
         return(
             <div>asd
-                <ErrorBoundary>
+                /*<ErrorBoundary>*/
                     <HeaderMenu/>
                     <VideoContainer/>
                     <Section/>
@@ -18,7 +18,7 @@ class App extends Component{
                     <Section/>
                     <Section/>
                     <Footer/>
-                </ErrorBoundary>
+                /*</ErrorBoundary>*/
             </div>
         );
     }

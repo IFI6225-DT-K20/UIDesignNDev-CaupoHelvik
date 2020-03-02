@@ -21,7 +21,7 @@ Installation intructions:
 Following commands need to be executed in root directory:  
 12. type nul > index.html   
 13. type nul > App.js  
-14. type nul > main.js  
+14. type nul > index.js  
 15. type nul > webpack.config.js  
 16. type nul > .babelrc  
 17. Add following code to webpack.config.js
@@ -29,7 +29,7 @@ Following commands need to be executed in root directory:
     const path = require('path');
     const HtmlWebpackPlugin = require('html-webpack-plugin');
     module.exports = {
-       entry: './main.js',
+       entry: './index.js',
        output: {
           path: path.join(__dirname, '/bundle'),
           filename: 'index_bundle.js'
@@ -91,7 +91,7 @@ Following commands need to be executed in root directory:
     }
     export default App;
     ```
-22. In main.js put following code:
+22. In index.js put following code:
     ```javascript
     import React from 'react';
     import ReactDOM from 'react-dom';
