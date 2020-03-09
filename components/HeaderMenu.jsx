@@ -12,7 +12,8 @@ class HeaderMenu extends React.Component {
 
     render() {
         return (
-            <div className={"header-container"}>
+            <div className={"header-container " + this.props.backName}>
+                <div className={"main-container"}>
                 <div className={"upper-header"}>
                     <div className={"left-u-header"}>
                         <Link to="/">barbican</Link>
@@ -20,13 +21,14 @@ class HeaderMenu extends React.Component {
                     <div className={"right-u-header"}>
                         <div className={"search-input"}>
                             <input placeholder={"Search site"} />
-                            <Btn>SEARCH ICON</Btn>
+                            <Btn><i className="fas fa-search"></i></Btn>
                         </div>
-                        <Link to="/">LOGIN ICON Log in</Link>
+                        <Link to="/"><i className="fas fa-user"></i> Log in</Link>
                     </div>
                 </div>
                 <div className={"lower-header"}>
 
+                </div>
                 </div>
             </div>
         )

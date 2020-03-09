@@ -18,6 +18,10 @@ module.exports = {
                 use: ['style-loader', 'css-loader', 'sass-loader'],
             },
             {
+                test: /\.(eot|woff|woff2|ttf)$/i,
+                use: ['file-loader'],
+            },
+            {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: "babel-loader"

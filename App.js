@@ -8,17 +8,15 @@ import ErrorBoundary from './components/ErrorBoundary.jsx';
 class App extends Component{
     render() {
         return(
-            <div>asd
-                /*<ErrorBoundary>*/
-                    <HeaderMenu/>
-                    <VideoContainer/>
-                    <Section/>
-                    <Section/>
-                    <Section/>
-                    <Section/>
-                    <Section/>
-                    <Footer/>
-                /*</ErrorBoundary>*/
+            <div>
+                <HeaderMenu backName={"background-orange"} />
+                <VideoContainer/>
+                <Section/>
+                <Section/>
+                <Section/>
+                <Section/>
+                <Section backName={"background-orange"} />
+                <Footer backName={"background-dark"}/>
             </div>
         );
     }

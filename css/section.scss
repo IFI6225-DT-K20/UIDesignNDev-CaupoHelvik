@@ -1,0 +1,44 @@
+@font-face{
+  font-family:'Futura-Bold';
+  src:url("./fonts/FuturaLTPro-Bold.eot");
+  src:url("./fonts/FuturaLTPro-Bold.eot?#iefix")
+  format("embedded-opentype"),
+  url("./fonts/FuturaLTPro-Bold.woff2")
+  format("woff2"),
+  url("./fonts/FuturaLTPro-Bold.woff")
+  format("woff"),
+  url("./fonts/FuturaLTPro-Bold.ttf")
+  format("truetype")
+}
+@font-face{
+  font-family:'Futura-BoldItalic';
+  src:url("./fonts/FuturaLTPro-BoldOblique.eot");
+  src:url("./fonts/FuturaLTPro-BoldOblique.eot?#iefix")
+  format("embedded-opentype"),
+  url("./fonts/FuturaLTPro-BoldOblique.woff2")
+  format("woff2"),
+  url("./fonts/FuturaLTPro-BoldOblique.woff")
+  format("woff"),
+  url("./fonts/FuturaLTPro-BoldOblique.ttf")
+  format("truetype")
+}
+
+body {
+  margin: 0;
+  font-family: Futura-Bold,Arial,Helvetica,sans-serif;
+}
+
+.main-container {
+  width: 1171px;
+  margin: auto;
+}
+
+.background-orange {
+  background: #ff5900;
+  color: #FFF;
+}
+
+.background-dark {
+  background: #1d1d1d;
+  color: #FFF;
+}

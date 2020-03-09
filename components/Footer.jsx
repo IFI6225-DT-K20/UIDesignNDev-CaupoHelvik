@@ -12,7 +12,8 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <div className={"footer-container"}>
+            <div className={"footer-container " + this.props.backName}>
+                <div className={"main-container"}>
                 <h3>Footer</h3>
                 <div className={"row"}>
                     <div className={"half-block"}>
@@ -29,11 +30,11 @@ class Footer extends React.Component {
                     </div>
                     <div className={"half-block"}>
                         <div className={"half-block"}>
-                            <h4>EMAIL ICON tickets@barbican.org.uk</h4>
+                            <h4><i className="fas fa-envelope"></i> tickets@barbican.org.uk</h4>
                             <p>We aim to respond withing 24 hrs</p>
                         </div>
                         <div className={"half-block"}>
-                            <h4>PHONE ICON 020 7638 8891</h4>
+                            <h4><i className="fas fa-phone"></i> 020 7638 8891</h4>
                             <p><Link to={"/"}>Opening times</Link> INFO_WITH_CIRCLE_LOGO</p>
                         </div>
                     </div>
@@ -62,6 +63,7 @@ class Footer extends React.Component {
                     <div className={"half-block"}>
                         © 2020 Barbican Centre, Silk Street, London, EC2Y 8DS
                     </div>
+                </div>
                 </div>
             </div>
         )
