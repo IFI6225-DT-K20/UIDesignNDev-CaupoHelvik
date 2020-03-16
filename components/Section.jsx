@@ -6,7 +6,7 @@ class Section extends React.Component {
         super(props);
         this.state = {
         };
-    }w
+    }
 
     render() {
         return (

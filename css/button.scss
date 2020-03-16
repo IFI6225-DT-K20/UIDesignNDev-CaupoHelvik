@@ -2,4 +2,18 @@
   border-radius: 4px;
   background: #333;
   color: #FFF;
+  border: none;
+}
+
+.btn.transparent-back {
+  background: transparent;
+}
+
+.orange-btn {
+  padding: 17px;
+  border-radius: 6px;
+  background: #ff5900;
+  color: #FFF;
+  font-size: 1.05em;
+  font-family: Futura-Bold;
 }

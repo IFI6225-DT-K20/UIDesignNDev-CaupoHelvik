@@ -22,7 +22,7 @@ class VideoContainer extends React.Component {
                 <div className={"video-description"}>
                     <h1>Welcome to the Barbican</h1>
                     <p>A world-class arts and learning center, the Barbican pushes the boundaries of all major art forms including dance, film, music, theatre and visual arts.</p>
-                    <Btn><i className="fas fa-calendar"></i> Event calendar</Btn>
+                    <Btn faIcon={"fa-calendar"} cName={"orange-btn"} btnName={"Event calendar"}></Btn>
                 </div>
                 </div>
             </div>

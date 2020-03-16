@@ -10,9 +10,17 @@ class Btn extends React.Component {
     }
 
     render() {
+        if(this.props.faIcon) {
+            return (
+                <button className={"btn "+this.props.cName}>
+                    <i className={"fa "+this.props.faIcon}></i> {this.props.btnName}
+                </button>
+            )
+        }
+
         return (
-            <button className={"btn"}>
-                todo
+            <button className={"btn "+this.props.cName}>
+                {this.props.btnName}
             </button>
         )
     }

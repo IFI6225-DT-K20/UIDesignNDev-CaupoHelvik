@@ -1,0 +1,25 @@
+.menu-dropdown-items {
+  display: none;
+}
+
+.menu-button {
+  display: inline-block;
+  padding: 14px 20px;
+
+  .fa-angle-up {
+    display: none;
+  }
+
+  &:hover {
+    background: white;
+    cursor: pointer;
+    color: #000;
+
+    .fa-angle-up {
+      display: initial;
+    }
+    .fa-angle-down {
+      display: none;
+    }
+  }
+}

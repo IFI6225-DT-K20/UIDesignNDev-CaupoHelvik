@@ -9,8 +9,26 @@ class MenuButton extends React.Component {
     }
 
     render() {
+        if(this.props.dropDownItems) {
+            return (
+                <div className={"menu-button"}>
+                    {this.props.buttonLabel} <i className={"fa fa-angle-down"}></i>
+                    <i className={"fa fa-angle-up"}></i>
+
+                    <div className={"menu-dropdown-items"}>
+                        TODO
+                    </div>
+                </div>
+            )
+        }
+
         return (
-            <div className={"todo"}>
+            <div className={"menu-button"}>
+                {this.props.buttonLabel}
+
+                <div className={"menu-dropdown-items"}>
+                    TODO
+                </div>
             </div>
         )
     }
