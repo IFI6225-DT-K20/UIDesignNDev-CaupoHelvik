@@ -1,0 +1,97 @@
+.footer-container {
+  padding: 50px 24px;
+
+  h3,h4 {
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+
+  h4 {
+    font-size: 1.7em;
+  }
+  
+  a {
+    color: #FFF;
+    text-decoration: underline;
+  }
+
+  p {
+    font-family: Futura-Book;
+    margin-top: 0;
+  }
+
+  .pad1 {
+    padding: 1em 0;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .half-block {
+    flex: 1;
+
+    p.m-left {
+      margin-left: 38px;
+    }
+  }
+
+  .footer.city-of-london {
+    display: flex;
+    padding: 1.1em 0;
+
+    .logo {
+      flex-row: row;
+      justify-content: space-between;
+
+      svg {
+        width: 60px;
+      }
+    }
+
+    p {
+      font-size: 11px;
+      line-height: 13px;
+      margin: 2em 0 0 1em;
+    }
+  }
+
+  .centre-partners.partner-logo {
+    width: 140px;
+    display: inline-block;
+  }
+
+  .footer-logo-description {
+    margin-bottom: 13px;
+  }
+
+  .centre-partner {
+    padding: 2em 0;
+  }
+
+  .icon {
+    display: inline-block;
+    background: #fff;
+    padding: 7px;
+    margin-left: 1em;
+    line-height: 0;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px 0 rgba(221,221,221,0.5);
+
+    svg {
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  .visually-hidden {
+    visibility: hidden;
+    margin-bottom: 0;
+    margin-top: 12px;
+  }
+}

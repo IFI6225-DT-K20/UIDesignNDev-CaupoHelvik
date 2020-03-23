@@ -22,6 +22,31 @@
   url("./fonts/FuturaLTPro-BoldOblique.ttf")
   format("truetype")
 }
+@font-face{
+  font-family:'Futura-Book';
+  src:url("./fonts/FuturaLTPro-Book.eot");
+  src:url("./fonts/FuturaLTPro-Book.eot?#iefix")
+  format("embedded-opentype"),
+  url("./fonts/FuturaLTPro-Book.woff2")
+  format("woff2"),
+  url("./fonts/FuturaLTPro-Book.woff")
+  format("woff"),
+  url("./fonts/FuturaLTPro-Book.ttf")
+  format("truetype")
+}
+
+@font-face{
+  font-family:'Futura-BookItalic';
+  src:url("./fonts/FuturaLTPro-BookOblique.eot");
+  src:url("./fonts/FuturaLTPro-BookOblique.eot?#iefix")
+  format("embedded-opentype"),
+  url("./fonts/FuturaLTPro-BookOblique.woff2")
+  format("woff2"),
+  url("./fonts/FuturaLTPro-BookOblique.woff")
+  format("woff"),
+  url("./fonts/FuturaLTPro-BookOblique.ttf")
+  format("truetype")
+}
 
 body {
   margin: 0;
