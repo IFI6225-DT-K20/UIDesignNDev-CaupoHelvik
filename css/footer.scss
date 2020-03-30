@@ -1,6 +1,30 @@
 .footer-container {
   padding: 50px 24px;
 
+  select {
+    margin: 0 12px;
+    background: transparent;
+    color: #FFF;
+    border-radius: 4px;
+    border: 1px solid #a5a5a5;
+    font-size: 1.1em;
+    padding: 0.3em 2em 0.3em 0.5em;
+    font-family: Futura-Bold,Arial,Helvetica,sans-serif;
+    width: 316px;
+    background: url(/css/icons/chevron--down--white.svg) no-repeat right 10px center;
+    background-color: #1d1d1d;
+    background-size: 15px 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    outline: 0;
+  }
+
+  option {
+    outline: 0;
+  }
+
   h3,h4 {
     margin: 0;
   }
@@ -11,7 +35,8 @@
   }
 
   h4 {
-    font-size: 1.7em;
+    font-size: 1.5em !important;
+    white-space: nowrap;
   }
   
   a {
@@ -94,4 +119,53 @@
     margin-bottom: 0;
     margin-top: 12px;
   }
+
+  .main-container .row > .half-block:first-child {
+    flex: 0.6;
+  }
+
+  .main-container .row.copyright-block > .half-block:first-child {
+    flex: 1;
+  }
+
+  .half-block > .half-block {
+    flex: none;
+    display: inline-block;
+    width: 49%;
+  }
+
+  .copyright-block > .half-block:last-child {
+    text-align: right;
+    color: #a5a5a5;
+  }
+
+  .fa, .fas {
+    font-size: 0.8em;
+  }
+
+  .copyright-block {
+    font-family: Futura-Book,Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    
+    a {
+      text-decoration: none;
+      margin-right: 20px;
+    }
+  }
+
+  .light-gray-border {
+    border-top: 1px solid #767676;
+    border-bottom: 1px solid #767676;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .quarter-block {
+    flex: 1;
+  }
+
+  .quarter-block:last-child {
+    border-left: 1px solid #767676;
+  }
+;
 }

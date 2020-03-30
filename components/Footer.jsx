@@ -17,23 +17,23 @@ class Footer extends React.Component {
                 <h3>Contact us</h3>
                 <div className={"row"}>
                     <div className={"half-block pad1"}>
-                        About DROPDOWN Your booking
+                        About
+                        <select>
+                            <option>Your booking</option>
+                        </select>
                     </div>
-                </div>
-                <div className={"row"}>
                     <div className={"half-block"}>
                         <h4>Contact the Box office</h4>
                         <p>For queries relating to your booking, please use <Link to={"/"}>our FAQs</Link> or contact us on:</p>
-                    </div>
-                </div>
-                <div className={"row"}>
-                    <div className={"half-block"}>
-                        <h4><i className="fas fa-envelope"></i> tickets@barbican.org.uk</h4>
-                        <p className={"m-left"}>We aim to respond withing 24 hrs</p>
-                    </div>
-                    <div className={"half-block"}>
-                        <h4><i className="fas fa-phone"></i> 020 7638 8891</h4>
-                        <p className={"m-left"}><Link to={"/"}>Opening times</Link> <i className="fas fa-info-circle"></i></p>
+
+                        <div className={"half-block"}>
+                            <h4><i className="fas fa-envelope"></i> tickets@barbican.org.uk</h4>
+                            <p className={"m-left"}>We aim to respond withing 25 hrs</p>
+                        </div>
+                        <div className={"half-block"}>
+                            <h4><i className="fas fa-phone"></i> 020 7638 8891</h4>
+                            <p className={"m-left"}><Link to={"/"}>Opening times</Link> <i className="fas fa-info-circle"></i></p>
+                        </div>
                     </div>
                 </div>
                 <div className={"row light-gray-border"}>
@@ -329,7 +329,7 @@ class Footer extends React.Component {
                         </nav>
                     </div>
                 </div>
-                <div className={"row"}>
+                <div className={"row copyright-block"}>
                     <div className={"half-block"}>
                         <Link to={"/"}>Careers</Link>
                         <Link to={"/"}>Press room</Link>
