@@ -15,7 +15,7 @@ class App extends Component{
                 <Section/>
                 <Section/>
                 <Section/>
-                <Section backName={"background-orange"} />
+                <Section backName={"background-orange"} subSection={"lowest"} />
                 <Footer backName={"background-dark"}/>
             </div>
         );

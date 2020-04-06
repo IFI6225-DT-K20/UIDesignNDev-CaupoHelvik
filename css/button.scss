@@ -3,6 +3,10 @@
   background: #333;
   color: #FFF;
   border: none;
+  padding: 17px;
+  font-family: Futura-Bold;
+  font-size: 1.05em;
+  cursor: pointer;
 }
 
 .btn.transparent-back {
@@ -10,10 +14,13 @@
 }
 
 .orange-btn {
-  padding: 17px;
   border-radius: 6px;
   background: #ff5900;
   color: #FFF;
-  font-size: 1.05em;
-  font-family: Futura-Bold;
+}
+
+.white-btn {
+  border-radius: 6px;
+  background: #FFF;
+  color: #ff5900;
 }

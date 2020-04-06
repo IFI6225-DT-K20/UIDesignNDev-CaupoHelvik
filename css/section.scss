@@ -67,3 +67,52 @@ body {
   background: #1d1d1d;
   color: #FFF;
 }
+.quarter-block {
+  flex: 1;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.va-middle {
+  vertical-align: middle;
+  margin: auto 0;
+}
+
+.section {
+
+  ul {
+    font-family: Futura-Book;
+    padding-left: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  .newsletter {
+    max-width: 242px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-right: 3vw;
+    float: right;
+  }
+
+  .newsletter-block {
+    h2 {
+      font-weight: normal;
+    }
+
+    svg {
+      width: 1em;
+      height: 1.5ex;
+      margin-right: .5em;
+    }
+  }
+
+}
+
+.ta-center {
+  text-align: center;
+}
