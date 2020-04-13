@@ -3,7 +3,6 @@ import HeaderMenu from './components/HeaderMenu.jsx';
 import Footer from './components/Footer.jsx';
 import VideoContainer from './components/VideoContainer.jsx';
 import Section from './components/Section.jsx';
-import ErrorBoundary from './components/ErrorBoundary.jsx';
 
 class App extends Component{
     render() {
@@ -11,10 +10,10 @@ class App extends Component{
             <div>
                 <HeaderMenu backName={"background-orange"} />
                 <VideoContainer/>
-                <Section/>
-                <Section/>
-                <Section/>
-                <Section/>
+                <Section backName={"background-white"} />
+                <Section backName={"background-white"} />
+                <Section backName={"background-white"} />
+                <Section backName={"background-white"} subSection={"directions"} tabs={["Getting here", "Public transport"]} activeTab={"getting-here"} />
                 <Section backName={"background-orange"} subSection={"lowest"} />
                 <Footer backName={"background-dark"}/>
             </div>

@@ -75,9 +75,85 @@ body {
   display: flex;
 }
 
+.d-none {
+  display: none;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
 .va-middle {
   vertical-align: middle;
   margin: auto 0;
+}
+
+.tabs {
+  width: 100%;
+  border-bottom: 3px solid #ffeee5;
+
+  li {
+    display: inline-block;
+    padding: 5px 20px 9px;
+    color: #767676;
+    font-size: 1.1em;
+    font-family: Futura-Bold;
+    margin-bottom: -3px;
+    cursor: pointer;
+
+    &.active {
+      border-bottom: 3px solid #ff5900;
+      color: #ff5900;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+#box-office {
+  font-family: Futura-Bold;
+}
+
+#map {
+  width: 60%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.map-description {
+  font-family: Futura-Book;
+  display: none;
+  width: 39%;
+  vertical-align: top;
+
+  p, h3 {
+    padding: 0 30px;
+  }
+
+  &.active {
+    display: inline-block;
+  }
+
+  h3 {
+    margin: 0;
+    font-family: Futura-Bold;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  a {
+    color: #000;
+    font-family: Futura-Book;
+    text-decoration: underline;
+  }
+}
+
+.section.directions {
+  padding-bottom: 20px;
 }
 
 .section {
