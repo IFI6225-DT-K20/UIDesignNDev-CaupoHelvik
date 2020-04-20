@@ -98,7 +98,7 @@ class Footer extends React.Component {
                         <div className="footer-logo">
                             <a className="centre-partners partner-logo"
                                href="/our-story/our-people/centre-partners/christie-digital">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 778 107.3" enable-background="new 0 0 778 107.3">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 778 107.3" enableBackground="new 0 0 778 107.3">
                                     <path id="christie" fill="#FFFFFF" d="M740,11.3h1.4c1.6,0,3-0.6,3-2c0-1-0.8-2-3-2c-0.6,0-1,0-1.4,0V11.3z M740,17.9h-2v-12
                                         c1-0.2,2-0.2,3.4-0.2c1.8,0,3,0.4,3.8,0.8c0.8,0.6,1.2,1.4,1.2,2.4c0,1.6-1,2.6-2.4,3l0,0c1,0.2,1.8,1.2,2,3c0.2,1.8,0.6,2.6,0.8,3
                                         h-2c-0.2-0.4-0.6-1.4-0.8-3c-0.2-1.6-1-2-2.6-2H740V17.9z M742,2.5c-4.8,0-8.6,4-8.6,9s4,9,8.8,9c4.8,0,8.6-4,8.6-9
@@ -144,53 +144,53 @@ class Footer extends React.Component {
                                     <clipPath id="social--twitter-b">
                                         <use overflow="visible"></use>
                                     </clipPath>
-                                    <g clip-path="url(#social--twitter-b)">
+                                    <g clipPath="url(#social--twitter-b)">
                                         <defs>
                                             <path id="social--twitter-c" d="M-522 33h45v34h-45z"></path>
                                         </defs>
                                         <clipPath id="social--twitter-d">
                                             <use overflow="visible"></use>
                                         </clipPath>
-                                        <g clip-path="url(#social--twitter-d)">
+                                        <g clipPath="url(#social--twitter-d)">
                                             <defs>
                                                 <path id="social--twitter-e" d="M-522 33h45v34h-45z"></path>
                                             </defs>
                                             <clipPath id="social--twitter-f">
                                                 <use overflow="visible"></use>
                                             </clipPath>
-                                            <g clip-path="url(#social--twitter-f)">
+                                            <g clipPath="url(#social--twitter-f)">
                                                 <defs>
                                                     <path id="social--twitter-g" d="M-522 33h45v34h-45z"></path>
                                                 </defs>
                                             </g>
                                         </g>
-                                        <g clip-path="url(#social--twitter-d)">
+                                        <g clipPath="url(#social--twitter-d)">
                                             <defs>
                                                 <path id="social--twitter-h" d="M-522 33h45v34h-45z"></path>
                                             </defs>
                                             <clipPath id="social--twitter-i">
                                                 <use overflow="visible"></use>
                                             </clipPath>
-                                            <g clip-path="url(#social--twitter-i)">
+                                            <g clipPath="url(#social--twitter-i)">
                                                 <defs>
                                                     <path id="social--twitter-j" d="M-522 33h45v34h-45z"></path>
                                                 </defs>
                                                 <clipPath id="social--twitter-k">
                                                     <use overflow="visible"></use>
                                                 </clipPath>
-                                                <g clip-path="url(#social--twitter-k)">
+                                                <g clipPath="url(#social--twitter-k)">
                                                     <defs>
                                                         <path id="social--twitter-l" d="M-522 33h45v34h-45z"></path>
                                                     </defs>
                                                     <clipPath id="social--twitter-m">
                                                         <use overflow="visible"></use>
                                                     </clipPath>
-                                                    <g clip-path="url(#social--twitter-m)">
+                                                    <g clipPath="url(#social--twitter-m)">
                                                         <defs>
                                                             <path id="social--twitter-n" d="M-522 33h45v34h-45z"></path>
                                                         </defs>
                                                     </g>
-                                                    <path clip-path="url(#social--twitter-m)"
+                                                    <path clipPath="url(#social--twitter-m)"
                                                           d="M-527 28h55v44h-55z"></path>
                                                 </g>
                                             </g>
@@ -202,53 +202,53 @@ class Footer extends React.Component {
                                     <clipPath id="social--twitter-p">
                                         <use overflow="visible"></use>
                                     </clipPath>
-                                    <g clip-path="url(#social--twitter-p)">
+                                    <g clipPath="url(#social--twitter-p)">
                                         <defs>
                                             <path id="social--twitter-q" d="M-522 33h45v34h-45z"></path>
                                         </defs>
                                         <clipPath id="social--twitter-r">
                                             <use overflow="visible"></use>
                                         </clipPath>
-                                        <g clip-path="url(#social--twitter-r)">
+                                        <g clipPath="url(#social--twitter-r)">
                                             <defs>
                                                 <path id="social--twitter-s" d="M-522 33h45v34h-45z"></path>
                                             </defs>
                                             <clipPath id="social--twitter-t">
                                                 <use overflow="visible"></use>
                                             </clipPath>
-                                            <g clip-path="url(#social--twitter-t)">
+                                            <g clipPath="url(#social--twitter-t)">
                                                 <defs>
                                                     <path id="social--twitter-u" d="M-522 33h45v34h-45z"></path>
                                                 </defs>
                                             </g>
                                         </g>
-                                        <g clip-path="url(#social--twitter-r)">
+                                        <g clipPath="url(#social--twitter-r)">
                                             <defs>
                                                 <path id="social--twitter-v" d="M-522 33h45v34h-45z"></path>
                                             </defs>
                                             <clipPath id="social--twitter-w">
                                                 <use overflow="visible"></use>
                                             </clipPath>
-                                            <g clip-path="url(#social--twitter-w)">
+                                            <g clipPath="url(#social--twitter-w)">
                                                 <defs>
                                                     <path id="social--twitter-x" d="M-522 33h45v34h-45z"></path>
                                                 </defs>
                                                 <clipPath id="social--twitter-y">
                                                     <use overflow="visible"></use>
                                                 </clipPath>
-                                                <g clip-path="url(#social--twitter-y)">
+                                                <g clipPath="url(#social--twitter-y)">
                                                     <defs>
                                                         <path id="social--twitter-z" d="M-522 33h45v34h-45z"></path>
                                                     </defs>
                                                     <clipPath id="social--twitter-A">
                                                         <use overflow="visible"></use>
                                                     </clipPath>
-                                                    <g clip-path="url(#social--twitter-A)">
+                                                    <g clipPath="url(#social--twitter-A)">
                                                         <defs>
                                                             <path id="social--twitter-B" d="M-522 33h45v34h-45z"></path>
                                                         </defs>
                                                     </g>
-                                                    <path clip-path="url(#social--twitter-A)"
+                                                    <path clipPath="url(#social--twitter-A)"
                                                           d="M-527 28h55v44h-55z"></path>
                                                 </g>
                                             </g>
@@ -260,53 +260,53 @@ class Footer extends React.Component {
                                     <clipPath id="social--twitter-D">
                                         <use overflow="visible"></use>
                                     </clipPath>
-                                    <g clip-path="url(#social--twitter-D)">
+                                    <g clipPath="url(#social--twitter-D)">
                                         <defs>
                                             <path id="social--twitter-E" d="M-524 32h45v34h-45z"></path>
                                         </defs>
                                         <clipPath id="social--twitter-F">
                                             <use overflow="visible"></use>
                                         </clipPath>
-                                        <g clip-path="url(#social--twitter-F)">
+                                        <g clipPath="url(#social--twitter-F)">
                                             <defs>
                                                 <path id="social--twitter-G" d="M-524 32h45v34h-45z"></path>
                                             </defs>
                                             <clipPath id="social--twitter-H">
                                                 <use overflow="visible"></use>
                                             </clipPath>
-                                            <g clip-path="url(#social--twitter-H)">
+                                            <g clipPath="url(#social--twitter-H)">
                                                 <defs>
                                                     <path id="social--twitter-I" d="M-524 32h45v34h-45z"></path>
                                                 </defs>
                                             </g>
                                         </g>
-                                        <g clip-path="url(#social--twitter-F)">
+                                        <g clipPath="url(#social--twitter-F)">
                                             <defs>
                                                 <path id="social--twitter-J" d="M-524 32h45v34h-45z"></path>
                                             </defs>
                                             <clipPath id="social--twitter-K">
                                                 <use overflow="visible"></use>
                                             </clipPath>
-                                            <g clip-path="url(#social--twitter-K)">
+                                            <g clipPath="url(#social--twitter-K)">
                                                 <defs>
                                                     <path id="social--twitter-L" d="M-524 32h45v34h-45z"></path>
                                                 </defs>
                                                 <clipPath id="social--twitter-M">
                                                     <use overflow="visible"></use>
                                                 </clipPath>
-                                                <g clip-path="url(#social--twitter-M)">
+                                                <g clipPath="url(#social--twitter-M)">
                                                     <defs>
                                                         <path id="social--twitter-N" d="M-524 32h45v34h-45z"></path>
                                                     </defs>
                                                     <clipPath id="social--twitter-O">
                                                         <use overflow="visible"></use>
                                                     </clipPath>
-                                                    <g clip-path="url(#social--twitter-O)">
+                                                    <g clipPath="url(#social--twitter-O)">
                                                         <defs>
                                                             <path id="social--twitter-P" d="M-524 32h45v34h-45z"></path>
                                                         </defs>
                                                     </g>
-                                                    <path clip-path="url(#social--twitter-O)"
+                                                    <path clipPath="url(#social--twitter-O)"
                                                           d="M-529 27h55v44h-55z"></path>
                                                 </g>
                                             </g>

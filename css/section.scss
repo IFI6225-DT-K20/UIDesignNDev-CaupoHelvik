@@ -63,6 +63,11 @@ body {
   color: #FFF;
 }
 
+.background-gray {
+  background: #fffcfa;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.05);
+}
+
 .background-dark {
   background: #1d1d1d;
   color: #FFF;
@@ -158,6 +163,12 @@ body {
 
 .section {
 
+  h2 {
+    font-weight: normal;
+    color: #353535;
+    font-size: 2.6em;
+  }
+
   ul {
     font-family: Futura-Book;
     padding-left: 0;
@@ -191,4 +202,125 @@ body {
 
 .ta-center {
   text-align: center;
+}
+
+.section.make-the-most-of-your-visit {
+  padding: 50px 0;
+
+  .banners {
+    position: relative;
+  }
+
+  .button-left {
+    left: -90px;
+  }
+
+  .button-right {
+    right: -90px;
+  }
+
+  .button-left, .button-right {
+    background: rgba(255,255,255,0.05);
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.1);
+    display: block;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 1;
+    width: 5.5vw;
+    max-width: 70px;
+    height: 90px;
+
+    svg {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0;
+      right: 0;
+      font-size: 0;
+      width: 16px;
+      height: 25px;
+      opacity: .2;
+    }
+
+    path {
+      font-size: 0;
+      line-height: 1.15;
+    }
+  }
+
+  .image-blocks {
+    vertical-align: top;
+    width: 1171px;
+    height: 384px;
+    overflow: hidden;
+  }
+
+  .image-block {
+    vertical-align: top;
+    display: inline-block;
+    width: 376px;
+    background: #ffffff;
+    margin: 10px 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    position: relative;
+    height: 363px;
+    transition: 0.2s ease;
+    opacity: 0.9;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+
+    .img-label {
+      color: #FFF;
+      font-size: 0.7em;
+      padding: 5px 12px;
+      position: absolute;
+      margin-top: -23px;
+      border-top-right-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    .block-description {
+      padding: 10px 12px 20px;
+      border-width: 3px;
+      border-top: solid;
+
+      p {
+        margin: 0;
+
+        &:last-child {
+          color: #767676;
+        }
+      }
+    }
+
+    .img-block {
+      height: 267px;
+      overflow: hidden;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      text-align: center;
+      position: relative;
+
+       img {
+         position: absolute;
+         margin: 0 auto;
+         height: 100%;
+         left: -50%;
+         right: -50%;
+       }
+    }
+  }
 }

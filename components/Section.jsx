@@ -75,6 +75,26 @@ class Section extends React.Component {
                     </div>
                 );
             }
+            case "make-the-most-of-your-visit": {
+                return (<div className={"section " + this.props.backName + " " + this.props.subSection}>
+                        <div className={"main-container"}>
+                            <h2>Make the most of your visit</h2>
+
+                            <div className="banners">
+                                <div className="button-left">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.7 116.7"><path d="M58.5 116.7L74.3 101 39.9 68.8l-7.2-6.6-4.4-3.9L40 47.7l34.7-31.4L58.5 0 0 58.9z"></path></svg>
+                                </div>
+                                <div className={"image-blocks"}>
+                                    {this.renderImageBlocks(this.props.imageBlocks)}
+                                </div>
+                                <div className="button-right">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.7 116.7"><path d="M16.2 0L.3 15.7l34.4 32.1 7.3 6.7 4.3 3.8L34.7 69 0 100.3l16.2 16.4 58.5-58.9z"></path></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                );
+            }
         }
 
         return (
@@ -134,6 +154,28 @@ class Section extends React.Component {
             );
         });
     };
+
+    renderImageBlocks = imageblocks => {
+        return imageblocks.map(imageBlockData => {
+            return (
+                <div className={"image-block"} key={imageBlockData.blockTitle} >
+                    <div className={"img-block"}><img src={imageBlockData.imgUrl} alt={imageBlockData.imageTitle}/></div>
+                    {this.getImageBlockLabel(imageBlockData.imgBorderColor, imageBlockData.imageTitle)}
+                    <div className={"block-description"} style={{borderColor: imageBlockData.imgBorderColor}}>
+                        <p>{imageBlockData.blockTitle}</p>
+                        <p>{imageBlockData.blockDescription}</p>
+                    </div>
+                </div>
+            );
+        });
+    };
+
+    getImageBlockLabel(borderColor, imgTitle) {
+        if(imgTitle == "") {
+            return(<></>);
+        }
+        return (<div className={"img-label"} style={{backgroundColor: borderColor}}>{imgTitle}</div>)
+    }
 }
 
 export default Section;
